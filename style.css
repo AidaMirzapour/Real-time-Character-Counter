@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background: rgb(186, 190, 245);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
+  border-radius: 15px;
+  box-shadow: 3px 8px 4px rgba(0, 0, 0, 0.3);
+  width: 500px;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.container textarea {
+  resize: none;
+  padding: 20px;
+  font-family: sans-serif;
+  width: 400px;
+  height: 150px;
+  box-sizing: border-box;
+  border: solid 2px lightslategray;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.container .footer {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  color: darkslategrey;
+}
+
+.footer .total-counter {
+  color: crimson;
+  font-weight: bold;
+}
+
+.footer .remaining-counter {
+  color: blueviolet;
+  font-weight: bold;
+}
